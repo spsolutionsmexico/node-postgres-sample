@@ -1,6 +1,6 @@
 {
   "name": "node-postgres-sample",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -14,5 +14,20 @@
     "massive": "^2.0.9",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "A simple sample app that shows use of Postgres as a document store leveraging the newish JSONB capabilities. This is made extremely simple by the [massive.js](https://github.com/robconery/massive-js) library.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spsolutionsmexico/node-postgres-sample.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "israel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spsolutionsmexico/node-postgres-sample/issues"
+  },
+  "homepage": "https://github.com/spsolutionsmexico/node-postgres-sample#readme"
 }
